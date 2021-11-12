@@ -78,5 +78,5 @@ npm test
 
 ## Honorary mention
 
-A huge thanks goes to our supervisor dr. Edwin Brady for his encouragement and support throughout the process of developing this project.
+A huge thanks goes to our supervisor Dr. Edwin Brady for his encouragement and support throughout the process of developing this project.
 

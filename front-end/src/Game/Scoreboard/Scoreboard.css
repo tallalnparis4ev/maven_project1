@@ -1,0 +1,21 @@
+.Scoreboard {
+    position: relative;
+    left: calc(50% - 200px);
+    width: 400px;
+    border-collapse: collapse;
+    background: white;
+}
+
+td {
+    text-align: center;
+}
+
+table {
+    border:1px solid gray;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+tr:nth-child(even) {background-color: #f2f2f2;}

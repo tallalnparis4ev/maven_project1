@@ -1,0 +1,22 @@
+{
+    "name" : "hearts",
+    "description" : "A basic Hearts game with no passing and no starting card.",
+    "players" : 4,
+    "ascending_ordering" : true,
+    "can_view_previous_trick" : true,
+    "rules" : [
+        {"name" : "leadingCardForEachTrick", "data" : "break"},
+        {"name" : "nextLegalCardMode", "data" : "trick"},
+        {"name" : "trumpPickingMode", "data" : "fixed"},
+        {"name" : "trumpSuit", "data" : "HEARTS"},
+        {"name" : "calculateScore", "data" : "tricksWon"},
+        {"name" : "trickThreshold", "data" : 0},
+        {"name" : "trickWinner", "data" : "standard"},
+        {"name" : "tieBreaker", "data" : "standard"},
+        {"name" : "trickLeader", "data" : "prevWinner"},
+        {"name" : "validLeadingCardFirstTrick", "data" : "any"},
+        {"name" : "handEnd", "data" : "outOfCards"},
+        {"name" : "gameEnd", "data" : "handsPlayed"},
+        {"name" : "gameEndValue", "data" : 12}
+    ]
+}

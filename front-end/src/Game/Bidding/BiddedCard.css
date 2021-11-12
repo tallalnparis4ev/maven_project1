@@ -1,0 +1,42 @@
+.bidded-cards {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-right:5px;
+    margin-left:5px;
+
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.biddedCard {
+    height: calc(100vh / 7);
+    justify-self: end;
+    align-self: center;;
+
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: burlywood;
+    background-color: burlywood;
+}
+
+.card-badge {
+    text-align: center;
+    text-overflow: wrap;
+    color: black;
+    overflow-wrap: break-word;
+    justify-self: flex-start;
+    /* background-color: rgb(252,142,172);  flamingo pink :)*/
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 4px;
+    border-color: beige;
+    background-color: beige;
+
+}

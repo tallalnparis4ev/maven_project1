@@ -1,0 +1,19 @@
+.card-hand-game {
+    margin: 1px;
+    background-color: transparent;
+    width: 7vw;
+    cursor: grab;
+    transition: transform .05s; /* Animation */
+  }
+
+  .card-hand-game:hover {
+    transform: scale(1.1);
+}
+
+.card-hand-bid {
+  margin: 1px;
+    background-color: transparent;
+    height: calc(100vh / 7);
+    cursor: grab;
+    transition: transform .05s; /* Animation */
+}

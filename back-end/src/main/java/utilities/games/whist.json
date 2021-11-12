@@ -1,0 +1,21 @@
+{
+    "name" : "whist",
+    "description" : "...",
+    "players" : 4,
+    "plain" : true,
+    "teams" : [[0, 2], [1, 3]],
+    "ascending_ordering": true,
+    "can_view_previous_trick" : true,
+    "rules" : [
+      {"name" : "leadingCardForEachTrick", "data" : "any"},
+      {"name" : "nextLegalCardMode", "data" : "trick"},
+      {"name" : "trumpPickingMode", "data" : "lastDealt"},
+      {"name" : "calculateScore", "data" : "tricksWon"},
+      {"name" : "trickThreshold", "data" : 6},
+      {"name" : "trickWinner", "data" : "standard"},
+      {"name" : "trickLeader", "data" : "prevWinner"},
+      {"name" : "handEnd", "data": "outOfCards"},
+      {"name" : "gameEnd", "data" : "scoreThreshold"},
+      {"name" : "gameEndValue", "data" : 5}
+    ]
+  }

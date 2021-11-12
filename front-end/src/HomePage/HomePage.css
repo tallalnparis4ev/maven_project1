@@ -1,0 +1,38 @@
+html, body {
+            height: 100%;
+            width: 100%;
+            background-image: url('/Users/mohamedadel/Documents/JH/cssTest/wallpaperflare.com_wallpaper.jpg');
+            /* background-position: center center; */
+            background-size: cover;
+        }
+        .button{
+            display: inline-block;
+            width: 220px;
+            height: 60px;
+            border: 2px solid rgb(0, 0, 0);
+            color: rgb(22, 22, 22);
+            font-size: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: none;
+            line-height: 56px;
+            box-sizing: border-box;
+            border-radius: 50px;
+            background-color: transparent;
+            outline: none;
+            transition: all ease 0.5s;
+        }
+        .active{
+            font-size: 0;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border-left-color: transparent;
+            animation: rotate 1.4s ease 0.5s infinite;
+        }
+        @keyframes rotate{
+            0%{
+                transform: rotate(360deg);
+            }
+        }

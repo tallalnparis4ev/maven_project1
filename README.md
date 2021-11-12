@@ -52,8 +52,8 @@ https://gitlab.cs.st-andrews.ac.uk/cs3099groupa-6/project-code.git
 3. Run:
 
 ```
-./initInstall.sh
-./runAndBuildAll.sh local > /dev/null
+./initInstall.sh /pathToGradle
+./buildAndRunAll.sh local > /dev/null
 ```
 
 3. If the above commands are successful, open 4 tabs of a browser and type http://localhost:3000 as a URL and you should be greeted by a welcome page. If not keep refreshing until you are.
